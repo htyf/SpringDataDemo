@@ -1,0 +1,18 @@
+易百教程：（Linux系统Uban  redis）	http://www.yiibai.com/redis/redis_quick_guide.html
+易百教程：（maven）					http://www.yiibai.com/maven/
+笨鸟教程：			http://www.runoob.com/redis/redis-intro.html
+redis中文官网：			http://www.redis.cn/
+
+springDemo GitHub:		https://github.com/mafly/SpringDemo
+springmvc学习：			https://my.oschina.net/gaussik/blog/385697
+springmvc学习--具有REST风格的CURD：			http://www.cnblogs.com/bigdataZJ/p/springmvc4.html
+学习SpringMVC——国际化+上传+下载：	http://www.cnblogs.com/bigdataZJ/p/springmvc5.html
+					http://www.webpiaoliang.com/xuexi/wysj/java/20170304270347.html
+
+学习SpringMVC——拦截器：			http://www.cnblogs.com/bigdataZJ/p/springmvc6.html
+使用 Spring Data JPA 简化 JPA 开发：	https://www.ibm.com/developerworks/cn/opensource/os-cn-spring-jpa/index.html
+
+尚硅谷SSSP（Spring、SpringMVC、JPA、Spring Data）整合视频教程	http://www.icoolxue.com/play/9091
+尚硅谷Spring Data视频教程:		http://www.icoolxue.com/album/show/358
+
+

@@ -1,0 +1,1 @@
+JDBC连接池之C3P0(博客园--濮成林):	http://www.cnblogs.com/charliePU/p/5579195.html
