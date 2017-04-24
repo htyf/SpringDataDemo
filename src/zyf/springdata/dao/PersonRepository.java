@@ -3,6 +3,7 @@ package zyf.springdata.dao;
 import java.util.Date;
 import java.util.List;
 
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.Repository;
 import org.springframework.data.repository.RepositoryDefinition;
 
@@ -52,4 +53,11 @@ public interface PersonRepository/* extends Repository<Person, Integer>*/{
 
 	//WHERE a.id>? 
 	List<Person> getByAdderssIdGreaterThan(Integer id);
+	/**
+	 * 使用@Query 注解可以自定义JPQL语句以实现更灵活的查询
+	 * 注意：JPQL语句中用到的是字段和类名
+	 * @return
+	 */
+	@Query("select p from Person p where p.id= (select max(p2.id) from Person p2)")
+	Person getMaxIdPerson();
 }

@@ -61,4 +61,10 @@ public class SpringDataTest {
 		Person person = pr.getByLastName("zhangsan");
 		System.out.println(person);
 	}
+	
+	@Test
+	public void testAnnotationQuery(){
+		Person person = pr.getMaxIdPerson();
+		System.out.println(person);
+	}
 }
