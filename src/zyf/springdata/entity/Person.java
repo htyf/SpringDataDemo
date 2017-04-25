@@ -18,6 +18,7 @@ public class Person {
 	private Date birth;
 	private Address adderss;
 	private Integer addresssId;
+	
 	@GeneratedValue
 	@Id
 	public Integer getId() {

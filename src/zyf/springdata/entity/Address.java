@@ -11,6 +11,7 @@ public class Address {
 	private Integer id;
 	private String province;
 	private String city ;
+	
 	@GeneratedValue
 	@Id
 	public Integer getId() {
@@ -30,6 +31,21 @@ public class Address {
 	}
 	public void setCity(String city) {
 		this.city = city;
+	}
+	public Address() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Address(Integer id, String province, String city) {
+		super();
+		this.id = id;
+		this.province = province;
+		this.city = city;
+	}
+	@Override
+	public String toString() {
+		return "Address [id=" + id + ", province=" + province + ", city="
+				+ city + "]";
 	}
 	
 
